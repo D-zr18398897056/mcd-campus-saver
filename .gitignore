@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 敏感信息：真实 Token 绝不入库
+.env
+.env.local
+*.token
+
+# 运行时产物
+*.log
+state.txt
